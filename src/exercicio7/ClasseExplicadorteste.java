@@ -14,8 +14,8 @@ import java.time.LocalDate;
 public class ClasseExplicadorteste {
     public static void main(String[] args) {
         ClasseExplicador dados = new ClasseExplicador("nicolas", LocalDate.MIN, "nicolas.muchate@gmail.com", 15);
-        dados.toString();
-        System.out.println(dados);
+//        dados.toString();
+        System.out.println(dados.toString());
         
     
 }

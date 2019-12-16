@@ -81,5 +81,12 @@ public class ClasseExplicador {
     public void setCodigodevisita(int codigodevisita) {
         this.codigodevisita = codigodevisita;
     }
+
+    @Override
+    public String toString() {
+        return "ClasseExplicador{\n" + "nome=" + nome + ", \ndatadenascimento=" + datadenascimento + ", \nemail=" + email + ", \ncodigodevisita=" + codigodevisita + "\n" +'}';
+    }
+    
+    
     
 }
