@@ -77,6 +77,11 @@ public CadernoDeEndereço(String nome,int numerodetelefone,String email,String e
     public void setEndereço(String endereço) {
         this.endereço = endereço;
     }
+
+    @Override
+    public String toString() {
+        return "CadernoDeEndere\u00e7o{" + "nome=" + nome + ", numerodetelefone=" + numerodetelefone + ", email=" + email + ", endere\u00e7o=" + endereço + '}';
+    }
     
     
 }
