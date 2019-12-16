@@ -10,14 +10,41 @@ package agendatelefonica;
  * @author Vagabundo
  */
 public class Telefone {
-    private String número;
+    private int número;
     private String nome;
     public Telefone(String número,String nome){
         this.número = número;
         this.nome = nome;
     }
-    public String getTelefone(){
-        return número + " " + nome;
+
+    /**
+     * @return the número
+     */
+    public int getNúmero() {
+        return número;
+    }
+
+    /**
+     * @param número the número to set
+     */
+    public void setNúmero(int número) {
+        this.número = número;
+    }
+
+    /**
+     * @return the nome
+     */
+    public String getNome() {
+        return nome;
+    }
+
+    /**
+     * @param nome the nome to set
+     */
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+   
         
     }
     
