@@ -5,10 +5,41 @@
  */
 package agendatelefonica;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Vagabundo
  */
-public class Contacto {
+abstract public class Contacto {
+    protected String email;
+    protected ArrayList<Telefone>telefone;
+    public Contacto(){
+        email = "";
+        telefone = new ArrayList();
+    }
+    public Contacto(String email){
+        this.email = email;
+        telefone = new ArrayList();
+       
+    }
+    public String getNome(){
+        return email;
+    }
+    public void setNome(String nome){
+        this.email = email;
+    }
+    public void setTelefone(Telefone tf){
+        
+        telefone.add(tf);
+    }
+    public String getDados(){
+        String s = email + "\n";
+        for(Telefone t:telefone){
+            s+=t.getTelefone()+"\n";
+            
+        }
+        return s;
+    }
     
 }

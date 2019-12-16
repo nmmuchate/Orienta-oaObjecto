@@ -5,10 +5,13 @@
  */
 package agendatelefonica;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Vagabundo
  */
 public class Agenda {
+    private ArrayList<Contacto>amigos;
     
 }

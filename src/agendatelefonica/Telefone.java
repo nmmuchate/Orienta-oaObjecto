@@ -10,5 +10,18 @@ package agendatelefonica;
  * @author Vagabundo
  */
 public class Telefone {
+    private String número;
+    private String nome;
+    public Telefone(String número,String nome){
+        this.número = número;
+        this.nome = nome;
+    }
+    public String getTelefone(){
+        return número + " " + nome;
+        
+    }
+    
+    
+    
     
 }
