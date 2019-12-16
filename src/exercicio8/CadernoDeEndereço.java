@@ -14,7 +14,14 @@ public class CadernoDeEndereço {
     private int numerodetelefone;
     private String email;
     private String endereço;
-
+    
+public CadernoDeEndereço(String nome,int numerodetelefone,String email,String endereço){
+    this.nome=nome;
+    this.endereço= endereço;
+    this.email=email;
+    this.numerodetelefone=numerodetelefone;
+    
+}
     /**
      * @return the nome
      */
