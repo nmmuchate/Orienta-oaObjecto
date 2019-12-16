@@ -16,6 +16,15 @@ public class ClasseExplicador {
     private LocalDate datadenascimento;
     private String email;
     private int codigodevisita;
+    
+    public ClasseExplicador( String nome,LocalDate datadenascimento,String email,int codigodevisita ){
+        this.nome=nome;
+        this.datadenascimento=datadenascimento;
+        this.codigodevisita=codigodevisita;
+        this.email=email;
+        
+        
+    }
 
     /**
      * @return the nome
