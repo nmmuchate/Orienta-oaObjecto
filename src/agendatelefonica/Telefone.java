@@ -16,6 +16,9 @@ public class Telefone {
         this.número = número;
         this.nome = nome;
     }
+    public Telefone(){
+        
+    }
 
     /**
      * @return the número
@@ -47,7 +50,7 @@ public class Telefone {
 
     @Override
     public String toString() {
-        return "Telefone{" + "n\u00famero=" + número + ", nome=" + nome + '}';
+        return "Telefone{" + "nummero=" + número + ", nome=" + nome + '}';
     }
     
    
