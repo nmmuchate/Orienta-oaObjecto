@@ -12,7 +12,7 @@ package agendatelefonica;
 public class Telefone {
     private int número;
     private String nome;
-    public Telefone(String número,String nome){
+    public Telefone(int número,String nome){
         this.número = número;
         this.nome = nome;
     }
@@ -44,6 +44,12 @@ public class Telefone {
     public void setNome(String nome) {
         this.nome = nome;
     }
+
+    @Override
+    public String toString() {
+        return "Telefone{" + "n\u00famero=" + número + ", nome=" + nome + '}';
+    }
+    
    
         
     }
@@ -51,4 +57,4 @@ public class Telefone {
     
     
     
-}
+
