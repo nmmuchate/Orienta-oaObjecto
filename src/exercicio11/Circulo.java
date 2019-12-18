@@ -13,6 +13,20 @@ public class Circulo {
     private double x;
     private double y;
     private double PI;
+    
+    
+    
+    
+    
+    public Circulo(){
+        
+    }
+
+    public Circulo(double x, double y, double PI) {
+        this.x = x;
+        this.y = y;
+        this.PI = PI;
+    }
 
     /**
      * @return the x
@@ -57,6 +71,9 @@ public class Circulo {
     }
     
     
-    
+    public static double circulohorcha(double x,double y,double PI){
+        
+        return x*x*y*PI;
+    }
     
 }
