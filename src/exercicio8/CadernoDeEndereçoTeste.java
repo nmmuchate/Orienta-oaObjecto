@@ -5,22 +5,28 @@
  */
 package exercicio8;
 
+import java.util.Scanner;
+import java.util.Vector;
+
 /**
  *
  * @author Vagabundo
  */
 public class CadernoDeEndereçoTeste {
     public static void main(String[] args) {
-        CadernoDeEndereço[] dados = new CadernoDeEndereço[10];
-        int b=0;
-        for (int i = 0; i < dados.length; i++) {
-            CadernoDeEndereço dado = dados[i];
+        Scanner sc = new Scanner(System.in);
+        Vector dad = new Vector();
+        for (int i = 0; i < 10; i++) {
+            CadernoDeEndereço.setnome(sc.next());
+            CadernoDeEndereço.setnumerodetelefone(sc.nextInt());
+            CadernoDeEndereço.setemail(sc.next());
+            CadernoDeEndereço.setendereco(sc.next());
             
+            dad.add(CadernoDeEndereço);
         }
-        System.out.println(dados.toString());
+        
             
-            
-        }
+    }
        
     }
     
