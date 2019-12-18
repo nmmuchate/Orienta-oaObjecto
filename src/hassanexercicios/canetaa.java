@@ -10,7 +10,7 @@ public class canetaa {
     public String cor;
     private float ponta;
     protected int carga;
-    protected boolean tampada;
+    private boolean tampada;
     public void status () {
         System.out.println("Modelo: " + this.modelo);
         System.out.println("uma caneta" + this.cor);
@@ -24,10 +24,10 @@ public class canetaa {
          System.out.println("estou rabiscando");
      } 
     }
-    protected void tampar () {
+    public void tampar () {
      this.tampada=true;   
     }
-    protected void destampar (){
+    public void destampar (){
       this.tampada=false; 
     }
 }
