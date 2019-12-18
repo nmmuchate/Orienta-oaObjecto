@@ -22,7 +22,7 @@ public class Circulo {
         
     }
 
-    public Circulo(double x, double y, double PI) {
+    public Circulo(double x, double y) {
         this.x = x;
         this.y = y;
         
@@ -68,9 +68,14 @@ public class Circulo {
      */
     
     
-    public static double circulohorcha(double x,double y,double PI){
-        
+   
+
+    public static double circulo(double x, double y, double PI) {
         return x*x*y*PI;
     }
-    
+     @Override
+    public String toString(){
+        
+        return "Circulo{" + "x=" + x + ", y=" + y+", PI="+PI+'}';
+    }
 }
