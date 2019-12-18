@@ -53,7 +53,7 @@ public class livro {
     }
     
     public static void main(String[] args) {
-        
+        System.err.println(" abrir o livro");
     }
   
     
