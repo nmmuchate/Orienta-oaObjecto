@@ -17,12 +17,12 @@ public class CadernoDeEndereçoTeste {
         Scanner sc = new Scanner(System.in);
         Vector dad = new Vector();
         for (int i = 0; i < 10; i++) {
-            CadernoDeEndereço.setnome(sc.next());
-            CadernoDeEndereço.setnumerodetelefone(sc.nextInt());
-            CadernoDeEndereço.setemail(sc.next());
-            CadernoDeEndereço.setendereco(sc.next());
-            
-            dad.add(CadernoDeEndereço);
+//            CadernoDeEndereço.setnome(sc.next());
+//            CadernoDeEndereço.setnumerodetelefone(sc.nextInt());
+//            CadernoDeEndereço.setemail(sc.next());
+//            CadernoDeEndereço.setendereco(sc.next());
+//            
+//            dad.add(CadernoDeEndereço);
         }
         
             
