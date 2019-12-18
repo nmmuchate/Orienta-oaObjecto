@@ -9,6 +9,6 @@ package hassanexercicios;
  *
  * @author Hassan
  */
-public class exercicio2 {
+public class poo2 {
     
 }
