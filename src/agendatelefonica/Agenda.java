@@ -26,8 +26,9 @@ public class Agenda {
         
         do{
                 if(num > 0 && repeticao(num) ==  false){
+                    
                     contactos = new Telefone();
-                    contactos.setNúmero(num );
+                    contactos.setNúmero(num);
                     System.out.println("");
                     System.out.println("insira o nome: ");
                     contactos.setNome(sc.next());
@@ -53,6 +54,17 @@ public class Agenda {
         }
         return hasNumber;
     }
+    
+    /*public void procurar(){
+        Telefone l;
+        
+        sout
+        
+        for (int i = 0; i < dad.size(); i++) {
+            l = dad.get(i);
+            if(dad.get(i).getNome().equalsIgnoreCase()) 
+        }
+    }*/
     
     public static void main(String[] args) {
         
