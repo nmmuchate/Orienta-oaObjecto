@@ -12,8 +12,13 @@ public class poo2 {
         c1.ponta = 0.5f;
         c1.destampar();
         
-        c1.status(); 
+       // c1.status(); 
         c1.rabiscar();
+        
+        caneta c2 = new caneta ();
+        c2.modelo="hostnet";
+        c2.destampar();
+        c2.rabiscar();
     }
  
 }
