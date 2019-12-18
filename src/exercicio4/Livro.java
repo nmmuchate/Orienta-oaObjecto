@@ -13,6 +13,16 @@ public class Livro {
     private String nomedoautor;
     private byte edicao;
     private String titulo;
+    public Livro(){
+        
+    }
+
+    public Livro(String nomedoautor, byte edicao, String titulo) {
+        this.nomedoautor = nomedoautor;
+        this.edicao = edicao;
+        this.titulo = titulo;
+    }
+    
 
     /**
      * @return the nomedoautor
@@ -55,6 +65,12 @@ public class Livro {
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
+
+    @Override
+    public String toString() {
+        return "Livro{" + "nomedoautor=" + nomedoautor + ", edicao=" + edicao + ", titulo=" + titulo + '}';
+    }
+    
     
     
     
