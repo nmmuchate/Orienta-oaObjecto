@@ -13,11 +13,14 @@ public class CadernoDeEndereço {
     private String nome;
     private int numerodetelefone;
     private String email;
-    private String endereço;
+    private String endereco;
+    public CadernoDeEndereço(){
+        
+    }
     
 public CadernoDeEndereço(String nome,int numerodetelefone,String email,String endereço){
     this.nome=nome;
-    this.endereço= endereço;
+    this.endereco= endereço;
     this.email=email;
     this.numerodetelefone=numerodetelefone;
     
@@ -68,19 +71,19 @@ public CadernoDeEndereço(String nome,int numerodetelefone,String email,String e
      * @return the endereço
      */
     public String getEndereço() {
-        return endereço;
+        return endereco;
     }
 
     /**
      * @param endereço the endereço to set
      */
     public void setEndereço(String endereço) {
-        this.endereço = endereço;
+        this.endereco = endereço;
     }
 
     @Override
     public String toString() {
-        return "CadernoDeEndere\u00e7o{" + "nome=" + nome + ", numerodetelefone=" + numerodetelefone + ", email=" + email + ", endere\u00e7o=" + endereço + '}';
+        return "CadernoDeEndere\u00e7o{" + "nome=" + nome + ", numerodetelefone=" + numerodetelefone + ", email=" + email + ", endere\u00e7o=" + endereco + '}';
     }
     
     
