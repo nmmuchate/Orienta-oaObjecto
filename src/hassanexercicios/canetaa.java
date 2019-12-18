@@ -8,7 +8,7 @@ package hassanexercicios;
 public class canetaa {
     public String modelo;
     public String cor;
-    public float ponta;
+    private float ponta;
     protected int carga;
     protected boolean tampada;
     public void status () {
