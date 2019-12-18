@@ -12,7 +12,7 @@ package exercicio11;
 public class Circulo {
     private double x;
     private double y;
-    private double PI;
+    private final double PI = 3.1415 ;
     
     
     
@@ -25,7 +25,7 @@ public class Circulo {
     public Circulo(double x, double y, double PI) {
         this.x = x;
         this.y = y;
-        this.PI = PI;
+        
     }
 
     /**
@@ -66,9 +66,6 @@ public class Circulo {
     /**
      * @param PI the PI to set
      */
-    public void setPI(double PI) {
-        this.PI = PI;
-    }
     
     
     public static double circulohorcha(double x,double y,double PI){
