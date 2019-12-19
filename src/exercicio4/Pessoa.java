@@ -15,6 +15,17 @@ public class Pessoa {
     private String email;
     private String numerodecelular;
 
+    public Pessoa(String nome, int bi, String email, String numerodecelular) {
+        this.nome = nome;
+        this.bi = bi;
+        this.email = email;
+        this.numerodecelular = numerodecelular;
+    }
+
+    public Pessoa() {
+    }
+    
+
     /**
      * @return the nome
      */
@@ -70,5 +81,11 @@ public class Pessoa {
     public void setNumerodecelular(String numerodecelular) {
         this.numerodecelular = numerodecelular;
     }
+
+    @Override
+    public String toString() {
+        return "Pessoa{" + "nome=" + nome + ", bi=" + bi + ", email=" + email + ", numerodecelular=" + numerodecelular + '}';
+    }
+    
     
 }
