@@ -6,7 +6,12 @@ import java.util.ArrayList;
 import java.util.Date;
 
 import javax.swing.JOptionPane;
-
+/**
+ *
+ * @author Ivandro Bangal
+ * @author Nicolas Muchate
+ * 
+ */
 public class Main {
 
 	public static void main(String[] args) throws ParseException {
